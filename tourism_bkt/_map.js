@@ -581,7 +581,7 @@
                 console.log(id);
                 var latitude=row.lat;
                 var longitude = row.lng;
-                $('#kanan_table').append("<tr><td>"+name+"</td><td><a role='button' class='btn btn-success fa fa-info' title='info' onclick='data_tourism_1_info(\""+id+"\")'></a></td><td><a role='button' class='btn btn-danger fa fa-taxi' title='Angkot' onclick='angkot_sekitar(\""+id+"\")'></a></td></tr>");  
+                $('#kanan_table').append("<tr><td>"+name+"</td><td><a role='button' class='btn btn-success fa fa-info' title='info' onclick='data_tourism_1_info(\""+id+"\")'></a></td><td><a role='button' class='btn btn-danger fa fa-taxi' title='Local Transportation' onclick='angkot_sekitar(\""+id+"\")'></a></td></tr>");  
 
                 centerBaru = new google.maps.LatLng(latitude, longitude);
                 map.setCenter(centerBaru);

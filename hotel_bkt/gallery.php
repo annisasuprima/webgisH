@@ -50,12 +50,12 @@ session_start();
     }
 
     .html5gallery img {
-      width:470px !important;
+      width:400px !important;
       left: 0px !important;
     }
     .html5gallery-car-0 {
       margin-top:5px;
-      width : 470px !important;
+      width : 400px !important;
      
     }
 
@@ -310,7 +310,7 @@ session_start();
                           <div class="panel-body">
                               <a class="btn btn-compose" style="background-color:black;border-bottom:1px solid black;color:white">Gallery</a>
                              <div style="overflow-y: auto; overflow-x:auto; margin:15px; display:flex; justify-content:center">
-                              <div class="html5gallery" style="max-height:700px; overflow:auto; display:block;" data-skin="horizontal" data-width="470" data-height="300" data-resizemode="fit"><?php
+                              <div class="html5gallery" style="max-height:700px; overflow:auto; display:block;" data-skin="horizontal" data-width="400" data-height="250" data-resizemode="fit"><?php
                               
                               if (strpos($id,"H") !== false) {  //Hotel
 

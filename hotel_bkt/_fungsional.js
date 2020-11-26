@@ -34,7 +34,7 @@ function _fs1(){
               var name = row.name;
               var lng = row.lng;
               var lat = row.lat;
-              $('#kanan_table').append("<tr><td>"+name+"</td><td><a role='button' class='btn btn-success fa fa-info' onclick='data_hotel_1_info(\""+id+"\")'></a></td><td><a role='button' class='btn btn-danger fa fa-taxi' title='Angkot' onclick='angkot_sekitar(\""+id+"\")'></a></td></tr>");  
+              $('#kanan_table').append("<tr><td>"+name+"</td><td><a role='button' class='btn btn-success fa fa-info' onclick='data_hotel_1_info(\""+id+"\")'></a></td><td><a role='button' class='btn btn-danger fa fa-taxi' title='Local Transportation' onclick='angkot_sekitar(\""+id+"\")'></a></td></tr>");  
               console.log(name);
               //MARKER
               centerBaru = new google.maps.LatLng(lat, lng);
@@ -90,7 +90,7 @@ function _fs2(){
               var id2 = row.id2;
               var lng2 = row.lng2;
               var lat2 = row.lat2;
-              $('#kanan_table').append("<tr><td>"+name+"</td><td><a role='button' class='btn btn-success fa fa-info' onclick='data_hotel_1_info(\""+id+"\")'></a></td><td><a role='button' class='btn btn-danger fa fa-taxi' title='Angkot' onclick='angkot_sekitar(\""+id+"\")'></a></td></tr>");  
+              $('#kanan_table').append("<tr><td>"+name+"</td><td><a role='button' class='btn btn-success fa fa-info' onclick='data_hotel_1_info(\""+id+"\")'></a></td><td><a role='button' class='btn btn-danger fa fa-taxi' title='Local Transportation' onclick='angkot_sekitar(\""+id+"\")'></a></td></tr>");  
               console.log(name);
               //MARKER hotel
               centerBaru = new google.maps.LatLng(lat, lng);
@@ -157,7 +157,7 @@ function _fs3(){
         var name2 = row.name2;
         var lng2 = row.lng2;
         var lat2 = row.lat2;
-        $('#kanan_table').append("<tr><td>"+name+"</td><td><a role='button' class='btn btn-success fa fa-info' onclick='data_hotel_1_info(\""+id+"\")'></a></td><td><a role='button' class='btn btn-danger fa fa-taxi' title='Angkot' onclick='angkot_sekitar(\""+id+"\")'></a></td></tr>");  
+        $('#kanan_table').append("<tr><td>"+name+"</td><td><a role='button' class='btn btn-success fa fa-info' onclick='data_hotel_1_info(\""+id+"\")'></a></td><td><a role='button' class='btn btn-danger fa fa-taxi' title='Local Transportation' onclick='angkot_sekitar(\""+id+"\")'></a></td></tr>");  
         console.log(name);
         //MARKER
         centerBaru = new google.maps.LatLng(lat, lng);
@@ -224,7 +224,7 @@ function _fs4(){
         var id3 = row.id3;
         var lng3 = row.lng3;
         var lat3 = row.lat3;
-        $('#kanan_table').append("<tr><td>"+name+"</td><td><a role='button' class='btn btn-success fa fa-info' onclick='data_hotel_1_info(\""+id+"\")'></a></td><td><a role='button' class='btn btn-danger fa fa-taxi' title='Angkot' onclick='angkot_sekitar(\""+id+"\")'></a></td></tr>");  
+        $('#kanan_table').append("<tr><td>"+name+"</td><td><a role='button' class='btn btn-success fa fa-info' onclick='data_hotel_1_info(\""+id+"\")'></a></td><td><a role='button' class='btn btn-danger fa fa-taxi' title='Local Transportation' onclick='angkot_sekitar(\""+id+"\")'></a></td></tr>");  
         console.log(name);
         //MARKER
         centerBaru = new google.maps.LatLng(lat, lng);
@@ -302,7 +302,7 @@ function _fs5(){
         var id3 = row.id3;
         var lng3 = row.lng3;
         var lat3 = row.lat3;
-        $('#kanan_table').append("<tr><td>"+name+"</td><td><a role='button' class='btn btn-success fa fa-info' onclick='data_hotel_1_info(\""+id+"\")'></a></td><td><a role='button' class='btn btn-danger fa fa-taxi' title='Angkot' onclick='angkot_sekitar(\""+id+"\")'></a></td></tr>");  
+        $('#kanan_table').append("<tr><td>"+name+"</td><td><a role='button' class='btn btn-success fa fa-info' onclick='data_hotel_1_info(\""+id+"\")'></a></td><td><a role='button' class='btn btn-danger fa fa-taxi' title='Local Transportation' onclick='angkot_sekitar(\""+id+"\")'></a></td></tr>");  
         console.log(name);
         //MARKER
         centerBaru = new google.maps.LatLng(lat, lng);
@@ -381,7 +381,7 @@ function _fr1(){
         var lng = row.lng;
         var lat = row.lat;
         var color = row.color;
-        $('#kanan_table').append("<tr><td>"+name+"</td><td><a role='button' class='btn btn-success fa fa-info' onclick='data_hotel_1_info(\""+id+"\")'></a></td><td><a role='button' class='btn btn-danger fa fa-taxi' title='Angkot' onclick='angkot_sekitar(\""+id+"\")'></a></td></tr>");  
+        $('#kanan_table').append("<tr><td>"+name+"</td><td><a role='button' class='btn btn-success fa fa-info' onclick='data_hotel_1_info(\""+id+"\")'></a></td><td><a role='button' class='btn btn-danger fa fa-taxi' title='Local Transportation' onclick='angkot_sekitar(\""+id+"\")'></a></td></tr>");  
         console.log(name);
         //MARKER
         centerBaru = new google.maps.LatLng(lat, lng);
@@ -437,7 +437,7 @@ function _fr2(){
         var lat = row.lat;
         var lng2 = row.lng2;
         var lat2 = row.lat2;
-        $('#kanan_table').append("<tr><td>"+name+"</td><td><a role='button' class='btn btn-success fa fa-info' onclick='data_hotel_1_info(\""+id+"\")'></a></td><td><a role='button' class='btn btn-danger fa fa-taxi' title='Angkot' onclick='angkot_sekitar(\""+id+"\")'></a></td></tr>");  
+        $('#kanan_table').append("<tr><td>"+name+"</td><td><a role='button' class='btn btn-success fa fa-info' onclick='data_hotel_1_info(\""+id+"\")'></a></td><td><a role='button' class='btn btn-danger fa fa-taxi' title='Local Transportation' onclick='angkot_sekitar(\""+id+"\")'></a></td></tr>");  
         console.log(name);
         //MARKER
         centerBaru = new google.maps.LatLng(lat, lng);
@@ -506,7 +506,7 @@ function _fr3(){
         var id3 = row.id3;
         var lng3 = row.lng3;
         var lat3 = row.lat3;
-        $('#kanan_table').append("<tr><td>"+name+"</td><td><a role='button' class='btn btn-success fa fa-info' onclick='data_hotel_1_info(\""+id+"\")'></a></td><td><a role='button' class='btn btn-danger fa fa-taxi' title='Angkot' onclick='angkot_sekitar(\""+id+"\")'></a></td></tr>");  
+        $('#kanan_table').append("<tr><td>"+name+"</td><td><a role='button' class='btn btn-success fa fa-info' onclick='data_hotel_1_info(\""+id+"\")'></a></td><td><a role='button' class='btn btn-danger fa fa-taxi' title='Local Transportation' onclick='angkot_sekitar(\""+id+"\")'></a></td></tr>");  
         console.log(name);
         //MARKER
         centerBaru = new google.maps.LatLng(lat, lng);
@@ -585,7 +585,7 @@ function _fr4(){
         var name2 = row.name2;
         var lng2 = row.lng2;
         var lat2 = row.lat2;
-        $('#kanan_table').append("<tr><td>"+name+"</td><td><a role='button' class='btn btn-success fa fa-info' onclick='data_hotel_1_info(\""+id+"\")'></a></td><td><a role='button' class='btn btn-danger fa fa-taxi' title='Angkot' onclick='angkot_sekitar(\""+id+"\")'></a></td></tr>");  
+        $('#kanan_table').append("<tr><td>"+name+"</td><td><a role='button' class='btn btn-success fa fa-info' onclick='data_hotel_1_info(\""+id+"\")'></a></td><td><a role='button' class='btn btn-danger fa fa-taxi' title='Local Transportation' onclick='angkot_sekitar(\""+id+"\")'></a></td></tr>");  
         console.log(name);
         //MARKER
         centerBaru = new google.maps.LatLng(lat, lng);
@@ -654,7 +654,7 @@ function _fr5(){
         var lng2 = row.lng2;
         var lat2 = row.lat2;
         var color = row.color;
-        $('#kanan_table').append("<tr><td>"+name+"</td><td><a role='button' class='btn btn-success fa fa-info' onclick='data_hotel_1_info(\""+id+"\")'></a></td><td><a role='button' class='btn btn-danger fa fa-taxi' title='Angkot' onclick='angkot_sekitar(\""+id+"\")'></a></td></tr>");  
+        $('#kanan_table').append("<tr><td>"+name+"</td><td><a role='button' class='btn btn-success fa fa-info' onclick='data_hotel_1_info(\""+id+"\")'></a></td><td><a role='button' class='btn btn-danger fa fa-taxi' title='Local Transportation' onclick='angkot_sekitar(\""+id+"\")'></a></td></tr>");  
         console.log(name);
         //MARKER
         centerBaru = new google.maps.LatLng(lat, lng);
@@ -703,7 +703,7 @@ function listGallery(){
       var longitude = row.lng;
       var img = row.img;
       console.log(id + latitude + longitude + img);
-      $('#kanan_table').append("<tr><td><img style='max-height:100px;' src='../_foto/"+img+"'><br><center>"+name+"</center></td><td><a role='button' class='btn btn-success fa fa-info' title='info'  onclick='data_hotel_1_info(\""+id+"\")'></a></td><td><a role='button' class='btn btn-danger fa fa-taxi' title='Angkot' onclick='angkot_sekitar(\""+id+"\")'></a></td></tr>");  
+      $('#kanan_table').append("<tr><td><img style='max-height:100px;' src='../_foto/"+img+"'><br><center>"+name+"</center></td><td><a role='button' class='btn btn-success fa fa-info' title='info'  onclick='data_hotel_1_info(\""+id+"\")'></a></td><td><a role='button' class='btn btn-danger fa fa-taxi' title='Local Transportation' onclick='angkot_sekitar(\""+id+"\")'></a></td></tr>");  
 
       //MARKER
       centerBaru = new google.maps.LatLng(latitude, longitude);
@@ -745,7 +745,7 @@ function galleryType(){
       var longitude = row.lng;
       var img = row.img;
       // console.log(id + latitude + longitude + img);
-      $('#kanan_table').append("<tr><td><img style='max-height:100px;' src='../_foto/"+img+"'><br><center>"+name+"</center></td><td><a role='button' class='btn btn-success fa fa-info' title='info'  onclick='data_hotel_1_info(\""+id+"\")'></a></td><td><a role='button' class='btn btn-danger fa fa-taxi' title='Angkot' onclick='angkot_sekitar(\""+id+"\")'></a></td></tr>");  
+      $('#kanan_table').append("<tr><td><img style='max-height:100px;' src='../_foto/"+img+"'><br><center>"+name+"</center></td><td><a role='button' class='btn btn-success fa fa-info' title='info'  onclick='data_hotel_1_info(\""+id+"\")'></a></td><td><a role='button' class='btn btn-danger fa fa-taxi' title='Local Transportation' onclick='angkot_sekitar(\""+id+"\")'></a></td></tr>");  
 
       //MARKER
       centerBaru = new google.maps.LatLng(latitude, longitude);

@@ -510,7 +510,7 @@ session_start();
                       <div class="col-md-12 col-sm-12 mb">
                         <div class="white-panel pns" style="">
                            <div class="white-header">
-                             <h5 style='color:black'>Angkot Recommendations</h5>
+                             <h5 style='color:black'>Local Transportation Recommendations</h5>
                            </div>
                            <div class="row centered">
                              <div class="col-sm-1 col-xs-1"></div>
@@ -707,7 +707,7 @@ session_start();
                       <div id="view_table_sekitar" class="col-md-4 col-sm-4 mb" style="display:none">
                         <div class="white-panel pns" style="height:510px">
                            <div class="white-header" style="height:40px;margin:20px;margin-top:0px;background:white;color:black">
-                             <h5 class="btn btn-compose" style="background-color:black;color:white;">Search Results Object Around</h5>
+                             <h5 class="btn btn-compose" id="head-angkot" style="background-color:black;color:white;">Search Results Object Around</h5>
                            </div>
                            <div class="row">
                              <div class="col-sm-6 col-xs-6"></div>
